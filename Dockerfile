@@ -1,3 +1,3 @@
 FROM ghcr.io/mlflow/mlflow:v2.16.2
 
-RUN pip install boto3
+RUN pip install boto3==1.35.15
